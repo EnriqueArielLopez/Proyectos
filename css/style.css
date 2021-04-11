@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.slide {
+  width: 90%;
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.collapse ul li {
+  margin-right: 6rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+/* ---------------------------------Novedades----------------------------------- */
+
+.col {
+  background-color: #121c46;
+  box-shadow: 7px 13px 37px #000;
+}
+.col h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-left: 5.6em;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 0.5em;
+}
+.col p {
+  margin-left: 1.1em;
+  margin-top: 1.5em;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.video{
+  margin-top: 2.5em;
+  
+  
+}
+/* ----------------------------------------galeria--------------------------------------------- */
+.title-gallery {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.container-fotos {
+  margin-left: 2.2em;
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-fotos {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.galeria-fotos :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.title-nov {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+
+
+/*--------------------------- FORMULARIO -------------------------------------*/
+.form-register{
+width: 500px;
+background: #24303c;
+padding: 30px;
+margin: auto;
+margin-top: 50px;
+border-radius: 5px;
+font-family: 'Roboto', sans-serif;
+color: white; 
+box-shadow: 7px 13px 37px #000;
+}
+.form-register h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.controls{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.form-register .boton {
+width: 100%;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin-bottom: 16px 0;
+font-size: 16px;
+}
+
+
+/* ............................footer............................................... */
+
+.footer {
+  background-color: #121c46;
+  width: 100%;
+  margin-top: 5em;
+  bottom: 0;
+  font-size: 12px;
+  height: auto;
+}
+
+.derechos {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-top: 50px;
+  
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+    
+    @mixin pie($bg-color,$m-t,$width,$height,$position,$botton) {
+        background-color: $bg-color;
+        margin-top: $m-t;
+        width: $width;
+        height: $height;
+        position: $position;
+        bottom: $botton;
+    }
+    .footer
+    {
+        @include pie (#121c46,5em,100% ,90px ,relative,0);
+    }
+    .derechos{
+        padding-top: 0.9em;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+
+        }
+  

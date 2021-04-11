@@ -1,0 +1,10 @@
+
+@mixin menu ($mr,$fz,$txtr,$ml) {
+    margin-right: $mr;
+    font-size: $fz;
+    text-transform: $txtr;
+    margin-left: $ml;
+}
+.collapse ul li{
+    @include menu(6rem,14px ,uppercase , 2em)
+}

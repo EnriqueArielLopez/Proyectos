@@ -1,0 +1,32 @@
+$titulo-galeria:(
+    centro: center,
+    mt: 2em,
+    w-title: 2em,
+);
+.title-gallery{
+    text-align: map-get($titulo-galeria,centro);
+    font-family: 'Roboto', sans-serif;
+    margin-top: map-get($titulo-galeria, mt);
+    font-size: map-get($titulo-galeria, w-title);
+
+}
+.container-fotos{
+    margin-left: 2.2em;
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.galeria-fotos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.galeria-fotos :hover{
+    
+        transform: scale(1.1);
+        cursor: pointer;
+        z-index: 1;
+        
+}
