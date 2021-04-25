@@ -6,7 +6,8 @@
 
 body {
   font-size: 16px;
-  width: auto;
+  width: 100%;
+
 }
 
 html{
@@ -25,21 +26,29 @@ html{
   margin-left: 2em;
 }
 /* ---------------------------------Novedades----------------------------------- */
-
-.col {
+.title-nov {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.caja {
   background-color: #121c46;
   box-shadow: 7px 13px 37px #000;
+  height: 150px;
+
 }
-.col h2 {
+.caja h2 {
   color: white;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 1.1em;
+  margin-left: 1em;
   text-align: center;
-  font-size: 28px;
+  font-size: 26px;
   padding-top: 0.5em;
 }
-.col p {
+.text-plan p {
   margin-left: 1.1em;
   margin-top: 1.5em;
   font-family: "Roboto", sans-serif;
@@ -49,8 +58,8 @@ html{
 
 .video{
   margin-top: 2.5em;
-  
-  
+
+
 }
 /* ----------------------------------------galeria--------------------------------------------- */
 .title-gallery {
@@ -61,10 +70,9 @@ html{
 }
 
 .container-fotos {
-  margin-left: 2.2em;
+  margin-left: 1.6em;
   margin-top: 1.5em;
-  display: flex;
-  justify-content: center;
+
 }
 
 .galeria-fotos {
@@ -79,13 +87,7 @@ html{
   z-index: 1;
 }
 
-.title-nov {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  margin-top: 2em;
-  padding-bottom: 1em;
-  text-align: center;
-}
+
 
 
 
@@ -98,7 +100,7 @@ margin: auto;
 margin-top: 50px;
 border-radius: 5px;
 font-family: 'Roboto', sans-serif;
-color: white; 
+color: white;
 box-shadow: 7px 13px 37px #000;
 }
 .form-register h4{
@@ -133,17 +135,20 @@ font-size: 16px;
 .footer {
   background-color: #121c46;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 6em;
   bottom: 0;
   font-size: 12px;
-  height: auto;
+  height: 8em;
+
 }
 
 .derechos {
   color: white;
   font-family: "Roboto", sans-serif;
   padding-top: 50px;
-  
+
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
