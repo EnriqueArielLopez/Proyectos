@@ -134,16 +134,12 @@ html{
   margin: 1.5em 0px 0px 4.4em;
   font-family: "Montserrat", sans-serif;
   max-width: 1000px;
-  border-bottom: #121c46 solid 1px;
+  
 }
 .container-h img{
   margin-left: 2em;
   box-shadow: 5px 10px  22px #000;
   width: 100%;
-}
-.titulo-h3 img{
-  margin:auto;
-  box-shadow: 5px 10px  22px #000;
 }
 
 .container-bot-h img{
@@ -152,7 +148,7 @@ html{
 .container-bot-h3 img{
   margin-top: 3em;
   margin: auto;
-  width: 600px;
+  width: 700px;
 }
 .container-h p{
   font-family: 'Roboto', sans-serif;
